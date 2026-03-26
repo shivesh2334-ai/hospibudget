@@ -113,17 +113,18 @@ Cardiology & CTVS, Cardiac Catheterisation Lab, Cardiac ICU, ICU, Emergency & Tr
 ## 📁 Project Structure
 
 ```
-hospital-budget-planner/
+hospibudget/                   # repository root
 ├── app/
 │   ├── globals.css        # Design system, animations, component styles
 │   ├── layout.jsx         # Root layout with metadata
 │   └── page.jsx           # Entry point → BudgetPlanner
 ├── components/
 │   └── BudgetPlanner.jsx  # Full app (Equipment + Maintenance + Manpower + Summary)
-├── public/                # Static assets
+├── public/                # Static assets (favicon, images)
 ├── next.config.mjs
 ├── tailwind.config.js
 ├── postcss.config.js
+├── .eslintrc.json
 ├── vercel.json            # Vercel deployment config (region: bom1 = Mumbai)
 ├── package.json
 └── .gitignore

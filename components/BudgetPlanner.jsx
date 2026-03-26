@@ -230,7 +230,7 @@ function EquipmentSection({ items, onChange }) {
         <div style={{ textAlign: 'center', padding: '40px 20px', color: 'var(--text-muted)' }}>
           <div style={{ fontSize: '2.5rem', marginBottom: 8 }}>🏥</div>
           <div style={{ fontWeight: 500 }}>No equipment added yet</div>
-          <div style={{ fontSize: '0.8rem', marginTop: 4 }}>Click "Add Equipment" to start building your equipment budget</div>
+          <div style={{ fontSize: '0.8rem', marginTop: 4 }}>Click &quot;Add Equipment&quot; to start building your equipment budget</div>
         </div>
       ) : (
         <div style={{ overflowX: 'auto' }}>
